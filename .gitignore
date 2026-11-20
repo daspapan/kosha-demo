@@ -1,5 +1,8 @@
 data
+contracts/node_modules
 contracts/artifacts
 contracts/cache
-contracts/node_modules
 contracts/.env
+contracts/README.md
+
+*.bak
