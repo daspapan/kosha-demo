@@ -6,11 +6,12 @@ export class OllamaError extends Error {}
 export async function chatJson({ system, user, schema, model = config.ollamaModel, url = config.ollamaUrl, timeoutMs = config.ollamaTimeoutMs, retries = 1 }) {
   const body = {
     model, stream: false, format: schema,
-    options: { temperature: 0, seed: 42, num_ctx: 8192 },
+    options: { temperature: 0, seed: 42, num_ctx: 8192, num_predict: 1024 },
     messages: [{ role: "system", content: system }, { role: "user", content: user }],
   };
   let lastErr;
   for (let attempt = 0; attempt <= retries; attempt++) {
+    body.options.seed = 42 + attempt;
     const started = Date.now();
     try {
       const res = await fetch(`${url}/api/chat`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body), signal: AbortSignal.timeout(timeoutMs) });
