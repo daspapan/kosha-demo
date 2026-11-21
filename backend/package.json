@@ -1,0 +1,25 @@
+{
+  "name": "kosha-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Kosha demo backend: API, partner, keeper, indexer, reconciler, validator, and the keyless AI agent",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning --env-file=.env.backend src/server.js",
+    "agent": "node --disable-warning=ExperimentalWarning --env-file=.env.agent src/agent/runner.js",
+    "make-invoices": "node scripts/make-invoices.js",
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/unit/*.test.js\"",
+    "test:int": "node --disable-warning=ExperimentalWarning --test --test-concurrency=1 \"test/integration/*.test.js\"",
+    "test:ai": "node --disable-warning=ExperimentalWarning --env-file=.env.agent --test \"test/ai/*.test.js\""
+  },
+  "dependencies": {
+    "ethers": "^6.13.4",
+    "express": "^4.21.2",
+    "multer": "^2.0.2",
+    "pdfjs-dist": "^4.10.38",
+    "pdfkit": "^0.17.2"
+  }
+}

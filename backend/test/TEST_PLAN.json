@@ -1,0 +1,735 @@
+{
+ "note": "Single source of truth for every test ID in the Kosha demo plan. test/unit/traceability.test.js fails if a required ID has no test or a test uses an unknown ID.",
+ "ids": [
+  {
+   "id": "D-01",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "D-02",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "D-03",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "D-04",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "D-05",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "D-06",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "D-07",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "D-08",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "D-09",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "G-01",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "G-02",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "G-03",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "G-04",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "G-05",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "G-06",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "G-07",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "G-08",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "G-09",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "G-10",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "K-01",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "K-02",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "K-03",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "K-04",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "K-05",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "K-06",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "A-01",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "A-02",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "A-03",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "A-04",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "A-05",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "A-06",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "A-07",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "A-08",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "A-09",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "V-01",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "V-02",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "V-03",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "V-04",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "V-05",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "V-06",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "V-07",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "V-08",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "L-01",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "L-02",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "L-03",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "L-04",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "L-05",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "L-06",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "L-07",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "L-08",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "L-09",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "L-10",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "L-11",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "R-01",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "R-02",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "R-03",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "R-04",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "R-05",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "R-06",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "R-07",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "R-08",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "X-01",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "X-02",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "X-03",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "X-04",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "E-01",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "E-02",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "E-03",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "E-04",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "E-05",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "E-06",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "E-07",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "E-08",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "E-09",
+   "suite": "contracts",
+   "status": "required"
+  },
+  {
+   "id": "VAL-01",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "VAL-02",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "VAL-03",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "VAL-04",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "VAL-05",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "VAL-06",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "VAL-07",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "VAL-08",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "VAL-09",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "VAL-10",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "VAL-11",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "VAL-12",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "VAL-13",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "VAL-14",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "VAL-15",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "U-01",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "U-02",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "U-03",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "U-04",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "U-05",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "U-06",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "U-07",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "U-08",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "U-09",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "U-10",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "INT-01",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "INT-02",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "INT-03",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "INT-04",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "INT-05",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "INT-06",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "INT-07",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "INT-08",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "INT-09",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "INT-10",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "INT-11",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "INT-12",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "INT-13",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "INT-14",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "INT-15",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "INT-16",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "REC-01",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "REC-02",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "REC-03",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "REC-04",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "REC-05",
+   "suite": "backend-integration",
+   "status": "required"
+  },
+  {
+   "id": "AI-01",
+   "suite": "backend-unit",
+   "status": "required"
+  },
+  {
+   "id": "AI-02",
+   "suite": "ai-evals (real model, run on the Mac)",
+   "status": "required"
+  },
+  {
+   "id": "AI-03",
+   "suite": "ai-evals (real model, run on the Mac)",
+   "status": "required"
+  },
+  {
+   "id": "AI-04",
+   "suite": "ai-evals (real model, run on the Mac)",
+   "status": "required"
+  },
+  {
+   "id": "AI-05",
+   "suite": "ai-evals (real model, run on the Mac)",
+   "status": "required"
+  },
+  {
+   "id": "AI-06",
+   "suite": "ai-evals (real model, run on the Mac)",
+   "status": "required"
+  },
+  {
+   "id": "AI-07",
+   "suite": "ai-evals (real model, run on the Mac)",
+   "status": "required"
+  },
+  {
+   "id": "AI-08",
+   "suite": "ai-evals (real model, run on the Mac)",
+   "status": "required"
+  },
+  {
+   "id": "AI-09",
+   "suite": "ai-evals (real model, run on the Mac)",
+   "status": "required"
+  },
+  {
+   "id": "AI-10",
+   "suite": "ai-evals (real model, run on the Mac)",
+   "status": "required"
+  },
+  {
+   "id": "AI-11",
+   "suite": "ai-evals (real model, run on the Mac)",
+   "status": "required"
+  },
+  {
+   "id": "AI-12",
+   "suite": "ai-evals (real model, run on the Mac)",
+   "status": "required"
+  },
+  {
+   "id": "AI-13",
+   "suite": "ai-evals (real model, run on the Mac)",
+   "status": "required"
+  },
+  {
+   "id": "UI-01",
+   "suite": "e2e (frontend, next step)",
+   "status": "pending-frontend"
+  },
+  {
+   "id": "UI-02",
+   "suite": "e2e (frontend, next step)",
+   "status": "pending-frontend"
+  },
+  {
+   "id": "UI-03",
+   "suite": "e2e (frontend, next step)",
+   "status": "pending-frontend"
+  },
+  {
+   "id": "UI-04",
+   "suite": "e2e (frontend, next step)",
+   "status": "pending-frontend"
+  },
+  {
+   "id": "UI-05",
+   "suite": "e2e (frontend, next step)",
+   "status": "pending-frontend"
+  },
+  {
+   "id": "UI-06",
+   "suite": "e2e (frontend, next step)",
+   "status": "pending-frontend"
+  },
+  {
+   "id": "UI-07",
+   "suite": "e2e (frontend, next step)",
+   "status": "pending-frontend"
+  },
+  {
+   "id": "UI-08",
+   "suite": "e2e (frontend, next step)",
+   "status": "pending-frontend"
+  },
+  {
+   "id": "UI-09",
+   "suite": "e2e (frontend, next step)",
+   "status": "pending-frontend"
+  },
+  {
+   "id": "UI-10",
+   "suite": "e2e (frontend, next step)",
+   "status": "pending-frontend"
+  },
+  {
+   "id": "UI-11",
+   "suite": "e2e (frontend, next step)",
+   "status": "pending-frontend"
+  },
+  {
+   "id": "UI-12",
+   "suite": "e2e (frontend, next step)",
+   "status": "pending-frontend"
+  },
+  {
+   "id": "UI-13",
+   "suite": "e2e (frontend, next step)",
+   "status": "pending-frontend"
+  }
+ ]
+}

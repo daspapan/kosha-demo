@@ -24,7 +24,8 @@ module.exports = {
     settings: { optimizer: { enabled: true, runs: 200 }, evmVersion: "cancun" },
   },
   networks: {
-    hardhat: { accounts: { count: 30 } },
+    hardhat: { accounts: { count: 30 }, initialDate: "2026-11-20T03:30:00Z"  },
+    itest: { url: "http://127.0.0.1:8655" },
     localhost: { url: "http://127.0.0.1:8545" },
     docker: { url: "http://chain:8545" },
     ...(SEPOLIA_RPC_URL && DEPLOYER_PRIVATE_KEY

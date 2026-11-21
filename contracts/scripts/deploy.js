@@ -8,7 +8,7 @@ const { TIMELOCK_DELAY, PARTNER_ADDRESS, KEEPER_ADDRESS, COMMITTEE_ADDRESSES, RE
 
 async function main() {
   const delay = Number(TIMELOCK_DELAY || (network.name === "sepolia" ? 600 : 86400));
-  const local = ["hardhat", "localhost", "docker"].includes(network.name);
+  const local = ["hardhat", "localhost", "docker", "itest"].includes(network.name);
   const roles = local ? undefined : {
     partner: PARTNER_ADDRESS, keeper: KEEPER_ADDRESS,
     committee: (COMMITTEE_ADDRESSES || "").split(",").map((a) => a.trim()),
