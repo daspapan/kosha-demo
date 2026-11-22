@@ -137,5 +137,10 @@ export function opsRouter(ctx) {
 /** Called once at start-up on the local chain: remember the freshly seeded state for Reset demo. */
 export async function ensureDemoSnapshot(ctx) {
   if (!ctx.isLocal || meta.get(ctx.db, "demo_snapshot_id")) return;
+    // Never remember an empty pool: Reset would then wipe out every member's deposit
+  if ((await ctx.c.vault.totalAssets()) === 0n) {
+    console.warn("The pool is empty, so Reset the demo is not set up. Run npm run deploy (it also seeds), then restart the backend.");
+    return;
+  }
   meta.set(ctx.db, "demo_snapshot_id", await ctx.provider.send("evm_snapshot", []));
 }

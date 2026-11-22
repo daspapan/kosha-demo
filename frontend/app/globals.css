@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/* Kosha design tokens: colours from Sambalpuri ikat and the cashew country of Odisha */
+@theme {
+  --font-sans: "Mukta", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-paper: #f5f6fa;      /* page background */
+  --color-surface: #ffffff;    /* panels */
+  --color-line: #dde1ec;       /* borders and dividers */
+  --color-ink: #1e2a5e;        /* main text, brand */
+  --color-ink-soft: #4a5378;   /* secondary text */
+  --color-ink-faint: #7c84a3;  /* hints */
+
+  --color-buffer: #1f7a6c;     /* liquid buffer: river teal */
+  --color-gsec: #3b4ba8;       /* government securities: indigo */
+  --color-loans: #d99a1e;      /* invoice loans: turmeric */
+  --color-danger: #b42318;     /* madder red: errors and vetoes */
+  --color-ok: #1f7a6c;
+  --color-warn: #b7791f;
+
+  --radius-panel: 14px;
+  --radius-control: 10px;
+}
+
+@layer base {
+  html { background: var(--color-paper); color: var(--color-ink); }
+  body { font-family: var(--font-sans); font-size: 16px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+  h1, h2, h3 { line-height: 1.15; text-wrap: balance; }
+  :focus-visible { outline: 3px solid color-mix(in srgb, var(--color-gsec) 55%, white); outline-offset: 2px; border-radius: 6px; }
+  .num { font-variant-numeric: tabular-nums; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+/* The treasury band grows into place once, on first load */
+@keyframes band-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.band-grow { transform-origin: left; animation: band-grow 900ms cubic-bezier(.2,.7,.2,1) both; }
