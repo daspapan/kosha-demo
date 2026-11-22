@@ -1,0 +1,205 @@
+{
+  "proposal": {
+    "blockNumber": 32,
+    "snapshotHash": "0x13705d77f784ab604c50b1bbbc94e517c123ef7488b5ebbd143e9c6e7e1aeddd",
+    "action": "NO_ACTION",
+    "current": {
+      "bufferBps": 0,
+      "gsecBps": 0,
+      "invoiceBps": 0
+    },
+    "target": {
+      "bufferBps": 0,
+      "gsecBps": 0,
+      "invoiceBps": 0
+    },
+    "dataPoints": [
+      {
+        "name": "tvlArc",
+        "value": 0
+      },
+      {
+        "name": "bufferBps",
+        "value": 0
+      },
+      {
+        "name": "gsecBps",
+        "value": 0
+      },
+      {
+        "name": "tbillAprBps",
+        "value": 550
+      },
+      {
+        "name": "expected7dRedemptionsArc",
+        "value": 1027000
+      },
+      {
+        "name": "pendingRedemptionsArc",
+        "value": 0
+      }
+    ],
+    "confidence": "high",
+    "rationale": "Buffer covers expected redemptions and T-bill trend is stable. No action needed to maintain policy targets and avoid costs to members.",
+    "wouldChangeIf": "T-bill trend falls below 300 bps or expected redemptions increase significantly."
+  },
+  "snapshot": {
+    "version": 1,
+    "chainId": 31337,
+    "blockNumber": 32,
+    "blockTimestamp": 1795145438,
+    "vault": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+    "tvl": 0,
+    "sharePriceMicroRupees": 1000000,
+    "allocation": {
+      "bufferBps": 0,
+      "gsecBps": 0,
+      "invoiceBps": 0
+    },
+    "amounts": {
+      "buffer": 0,
+      "gsec": 0,
+      "loans": 0
+    },
+    "gsec": {
+      "aprBps": 550
+    },
+    "tbill": {
+      "latestBps": 550,
+      "trend4w": [
+        {
+          "date": "2026-10-28",
+          "bps": 554
+        },
+        {
+          "date": "2026-11-04",
+          "bps": 553
+        },
+        {
+          "date": "2026-11-11",
+          "bps": 550
+        },
+        {
+          "date": "2026-11-18",
+          "bps": 550
+        }
+      ]
+    },
+    "redemptions": {
+      "pendingAssets": 0,
+      "expected7d": 1027000,
+      "history": {
+        "days": 90,
+        "mean7d": 397274,
+        "sd7d": 314716,
+        "max7d": 1208000,
+        "formula": "round((mean + 2 x sd of rolling 7-day sums) / 1000) x 1000"
+      }
+    },
+    "loans": {
+      "activeCount": 0,
+      "overdueCount": 0
+    },
+    "reserve": {
+      "ok": true,
+      "gatewayEinr": 0,
+      "arcSupply": 0,
+      "pendingDeposits": 0
+    },
+    "paused": false,
+    "policy": {
+      "version": 1,
+      "bufferMinBps": 2000,
+      "gsecMaxBps": 5000,
+      "maxMoveBps": 1000,
+      "redemptionCover": 1.5,
+      "minTbillBps": 300,
+      "minDataPoints": 4,
+      "maxSnapshotAgeBlocks": 20,
+      "maxSnapshotAgeSec": 600,
+      "maxRationaleWords": 120,
+      "loanLtvBps": 8000,
+      "loanRateBps": 1200,
+      "loanDays": 60,
+      "maxDaysPastDue": 90
+    }
+  },
+  "validation": {
+    "ok": false,
+    "signable": false,
+    "violations": [
+      {
+        "rule": "R6",
+        "name": "Sums and direction",
+        "msg": "target adds up to 0 bps, not 10000"
+      }
+    ],
+    "passed": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R7",
+      "R8",
+      "R9",
+      "R10",
+      "R11"
+    ],
+    "evidence": [
+      {
+        "name": "tvlArc",
+        "cited": 0,
+        "chain": 0,
+        "match": true
+      },
+      {
+        "name": "bufferBps",
+        "cited": 0,
+        "chain": 0,
+        "match": true
+      },
+      {
+        "name": "gsecBps",
+        "cited": 0,
+        "chain": 0,
+        "match": true
+      },
+      {
+        "name": "tbillAprBps",
+        "cited": 550,
+        "chain": 550,
+        "match": true
+      },
+      {
+        "name": "expected7dRedemptionsArc",
+        "cited": 1027000,
+        "chain": 1027000,
+        "match": true
+      },
+      {
+        "name": "pendingRedemptionsArc",
+        "cited": 0,
+        "chain": 0,
+        "match": true
+      }
+    ],
+    "notes": [],
+    "call": null
+  },
+  "meta": {
+    "model": "qwen2.5:7b",
+    "latencyMs": 17630,
+    "options": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_predict": 1024
+    },
+    "evalCount": 191,
+    "ollamaVersion": "0.33.2",
+    "promptHash": "0x497e682d186e1f437e153f63fead99b2bf9caa0c02b19cb5b97747d777b83a2d",
+    "injected": false
+  },
+  "source": "agent"
+}

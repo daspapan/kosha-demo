@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "bufferMinBps": 2000,
+  "gsecMaxBps": 5000,
+  "maxMoveBps": 1000,
+  "redemptionCover": 1.5,
+  "minTbillBps": 300,
+  "minDataPoints": 4,
+  "maxSnapshotAgeBlocks": 20,
+  "maxSnapshotAgeSec": 600,
+  "maxRationaleWords": 120,
+  "loanLtvBps": 8000,
+  "loanRateBps": 1200,
+  "loanDays": 60,
+  "maxDaysPastDue": 90
+}

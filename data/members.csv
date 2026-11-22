@@ -1,0 +1,22 @@
+member_id,hardhat_account,name,business,location,sector,gstin,deposit_inr,kyc
+M01,6,Meera Nayak,Nayak Cashew Processing,"Bhubaneswar, Khordha",Cashew processing,21KOSHA0001M1Z1,1000000,verified
+M02,7,Sanjay Mohapatra,Mohapatra Cashew Works,Khordha,Cashew processing,21KOSHA0002M1Z2,800000,verified
+M03,8,Lipika Swain,Swain Sambalpuri Handloom,Bargarh,Handloom,21KOSHA0003M1Z3,400000,verified
+M04,9,Debasis Rout,Rout Rice Mill,Cuttack,Rice milling,21KOSHA0004M1Z4,900000,verified
+M05,10,Pratima Jena,Pipili Applique Crafts,"Pipili, Puri",Handicraft,21KOSHA0005M1Z5,250000,verified
+M06,11,Ashok Panda,Panda Tarakasi Silver,Cuttack,Silver filigree,21KOSHA0006M1Z6,700000,verified
+M07,12,Kalpana Behera,Behera Cashew Exports,"Berhampur, Ganjam",Cashew processing,21KOSHA0007M1Z7,950000,verified
+M08,13,Manoj Sethi,Sethi Coir Products,Puri,Coir,21KOSHA0008M1Z8,300000,verified
+M09,14,Rina Das,Kandhamal Turmeric Collective,"Phulbani, Kandhamal",Spices,21KOSHA0009M1Z9,450000,verified
+M10,15,Biswajit Sahu,Sahu Dhokra Metalcraft,Dhenkanal,Brass and bell metal,21KOSHA0010M1Z0,350000,verified
+M11,16,Sunita Patra,Patra Bamboo Works,"Baripada, Mayurbhanj",Bamboo products,21KOSHA0011M1Z1,250000,verified
+M12,17,Gopal Mishra,Mishra Dry Fish Traders,Balasore,Seafood,21KOSHA0012M1Z2,650000,verified
+M13,18,Anjali Tripathy,Tripathy Pickles and Papad,"Bhubaneswar, Khordha",Food processing,21KOSHA0013M1Z3,300000,verified
+M14,19,Rajesh Pattnaik,Pattnaik Cashew Kernels,Khordha,Cashew processing,21KOSHA0014M1Z4,850000,verified
+M15,20,Mamata Barik,Barik Ikat Weavers,"Nuapatna, Cuttack",Handloom,21KOSHA0015M1Z5,350000,verified
+M16,21,Subrat Dash,Dash Agro Packaging,Khordha,Packaging,21KOSHA0016M1Z6,750000,verified
+M17,22,Itishree Mallick,Mallick Kewda Products,Ganjam,Kewda extracts,21KOSHA0017M1Z7,400000,verified
+M18,23,Nirmal Pradhan,Pradhan Cold Chain,Cuttack,Cold storage and logistics,21KOSHA0018M1Z8,1000000,verified
+M19,24,Swati Acharya,Acharya Cashew Roasters,Khordha,Cashew processing,21KOSHA0019M1Z9,600000,verified
+M20,25,Hemant Senapati,Senapati Stone Craft,Puri,Stone carving,21KOSHA0020M1Z0,750000,verified
+X01,26,Unverified Outsider,n/a,n/a,n/a,n/a,0,none

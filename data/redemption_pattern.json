@@ -1,0 +1,14 @@
+{
+  "seed": 7,
+  "days": 90,
+  "end": "2026-11-19",
+  "base_daily_inr": 45000,
+  "zero_day_probability": 0.45,
+  "month_end_multiplier": 3.5,
+  "season": {
+    "from": "09-15",
+    "to": "10-31",
+    "multiplier": 2.0
+  },
+  "lognormal_sigma": 0.6
+}

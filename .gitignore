@@ -24,8 +24,6 @@ logs/
 *.log
 *.bak
 
-data
-
 contracts/coverage*
 backend/README.md
 backend/.env.agent
